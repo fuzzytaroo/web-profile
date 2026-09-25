@@ -11,6 +11,7 @@ header {
     padding: 50px 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 34px;
+    color: #D9F2E6;
 }
 
 nav {
@@ -31,12 +32,12 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     padding: 8px 16px;
-    color: white;
+    color: #D9F2E6;
 }
 
 nav ul a:hover {
     background-color: #2A835F;
-    color: black;
+    color: #FFFFFF;
     border-radius: 4px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -59,12 +60,12 @@ main {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(9, 35, 40, 0.25);
     transition: 0.3s;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(9, 35, 40, 0.35);
 }
 
 .galeri {
@@ -75,7 +76,7 @@ main {
 }
 
 .galeri div {
-    background-color: #f1f1f1;
+    background-color: #E8F3EF;
     padding: 10px;
     font-size: 30px;
     text-align: center;
@@ -89,12 +90,13 @@ main {
 
 form {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #E8F3EF;
     padding: 20px;
 }
 
 label {
     display: block;
+    color: #092328;
 }
 
 input[type=text], select {
@@ -102,14 +104,15 @@ input[type=text], select {
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #8AB5A6;
     border-radius: 4px;
     box-sizing: border-box;
+    background-color: #FFFFFF;
 }
 
 input[type=submit] {
     width: 70%;
-    background-color: #4CAF50;
+    background-color: #2A835F;
     color: white;
     padding: 14px;
     margin: 8px 0;
@@ -119,7 +122,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #12544F;
 }
 
 .kontak {
